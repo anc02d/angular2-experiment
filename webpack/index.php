@@ -9,6 +9,6 @@
 		<title>Angular 2 Experiment</title>
 	</head>
 	<body>
-		<angular2-experiment>Loading&hellip;</angular2-experiment>
+		<angular2-experiment-app>Loading&hellip;</angular2-experiment-app>
 	</body>
 </html>
