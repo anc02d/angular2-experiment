@@ -55,6 +55,12 @@ module.exports = {
 			name: ['app', 'vendor', 'polyfills']
 		}),
 
+		new webpack.ProvidePlugin({
+			$: "jquery",
+			jQuery: "jQuery",
+			"window.jQuery": "jQuery"
+		}),
+
 		new HtmlWebpackPlugin({
 			inject: 'head',
 			filename: helpers.root('public_html') + '/index.php',
